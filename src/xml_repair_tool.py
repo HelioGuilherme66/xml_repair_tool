@@ -36,4 +36,4 @@ except:
     # TODO: something more intelligent than just printing out the
     # constructed end of the document. Like appending it to the source
     # and repeating whatever you did to make this processing necessary.
-    print handler.finish_document()
+    print(handler.finish_document())
